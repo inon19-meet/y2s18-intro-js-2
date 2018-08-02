@@ -1,5 +1,5 @@
 // YOUR TASK: Add more pictures!
-var pictures = ['./imgs/dog.jpg'];
+var pictures = ['./imgs/1.jpg'];
 var currentIndex = 0;
 
 function showNextPicture() {
@@ -9,5 +9,18 @@ function showNextPicture() {
     currentIndex = 0;
   }
 
-  // YOUR TASK: Finish this function!
+src="./event-listeners.js">
+    function changeImg(obj){	
+    	obj.innerHTML = "./imgs/1.jpg"
+    }
+
+    var imgs = document.getElementByTagName("img")
+
+    for(var i = 0; i < img.length; i++) {
+        imgs[i].addEventListener("click",function (event) {
+        alart("hi");
+        });
+    }
+
+
 }
